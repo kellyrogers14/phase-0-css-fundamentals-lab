@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block; /* Add this to make padding and background color work */
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: pink;
+}
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  max-width: 800px; /* Limit the width to 800px if needed */
+  margin: auto; /* Center the paragraphs horizontally */
+  margin-bottom: 20px;
+}
+
+#details div {
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: aquamarine;
+}
